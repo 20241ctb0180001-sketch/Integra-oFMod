@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{47e60786-18b9-44b2-bc09-0c5a234754c3}">
+		<property name="assetPath">
+			<value>sons/ambient_mountain.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>94.493812500000004</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dfc96b0e-1a75-406d-8e15-ebbbc74d6f2d}</destination>
+		</relationship>
+	</object>
+</objects>
