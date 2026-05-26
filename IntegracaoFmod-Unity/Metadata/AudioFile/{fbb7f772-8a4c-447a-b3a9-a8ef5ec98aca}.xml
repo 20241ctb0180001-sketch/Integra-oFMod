@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{fbb7f772-8a4c-447a-b3a9-a8ef5ec98aca}">
 		<property name="assetPath">
-			<value>dragon-studio-car-crash-sound-376882.mp3</value>
+			<value>sons/crash.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
