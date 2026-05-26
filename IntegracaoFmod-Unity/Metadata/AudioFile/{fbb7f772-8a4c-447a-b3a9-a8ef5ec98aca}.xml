@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{fbb7f772-8a4c-447a-b3a9-a8ef5ec98aca}">
+		<property name="assetPath">
+			<value>dragon-studio-car-crash-sound-376882.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0971428571428572</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{dfc96b0e-1a75-406d-8e15-ebbbc74d6f2d}</destination>
+		</relationship>
+	</object>
+</objects>
