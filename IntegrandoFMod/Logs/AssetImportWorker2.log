@@ -964,3 +964,196 @@ Memory consumption went from 158.8 MB to 154.4 MB.
 Total: 11.276800 ms (FindLiveObjects: 0.703400 ms CreateObjectMapping: 0.890000 ms MarkObjects: 6.639200 ms  DeleteObjects: 3.042700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  3.118 seconds
+Refreshing native plugins compatible for Editor in 6.33 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 3667ms
+	BeginReloadAssembly (559ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (165ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (2356ms)
+		LoadAssemblies (2538ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (260ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 8.16 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6329 unused Assets / (5.0 MB). Loaded Objects now: 7106.
+Memory consumption went from 158.8 MB to 153.7 MB.
+Total: 8.287300 ms (FindLiveObjects: 0.561200 ms CreateObjectMapping: 0.477400 ms MarkObjects: 4.556100 ms  DeleteObjects: 2.691300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.702 seconds
+Refreshing native plugins compatible for Editor in 6.32 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.607 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (435ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (297ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 13.04 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6329 unused Assets / (4.6 MB). Loaded Objects now: 7109.
+Memory consumption went from 158.9 MB to 154.3 MB.
+Total: 11.954700 ms (FindLiveObjects: 0.672100 ms CreateObjectMapping: 0.904300 ms MarkObjects: 7.022200 ms  DeleteObjects: 3.354200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4342.550679 seconds.
+  path: Assets/Plugins/FMOD/images/ArrowIcon.png
+  artifactKey: Guid(01c0101f357b9da4ba78b8f58c290f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/images/ArrowIcon.png using Guid(01c0101f357b9da4ba78b8f58c290f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e5cfd981d2332092e08090b9c1d70c4') in 0.1752933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Metal Barrel PBR/Scene/overview_room/ReflectionProbe-0.exr
+  artifactKey: Guid(1bdc3c989a363db40b99baf01fbcfd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Barrel PBR/Scene/overview_room/ReflectionProbe-0.exr using Guid(1bdc3c989a363db40b99baf01fbcfd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7149f0839db25cc3db2e3a11319c9d16') in 0.4467623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/FMOD/images/FMODLogoWhite.png
+  artifactKey: Guid(8fd8ccb8d7e81d943b28ea7975c7185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/images/FMODLogoWhite.png using Guid(8fd8ccb8d7e81d943b28ea7975c7185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa688a4cd171f90da69fdf11ecae16d1') in 0.0150923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/FMOD/images/CopyIcon.png
+  artifactKey: Guid(6e164dcb85fc8ad4b9ab2f1e883862d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/images/CopyIcon.png using Guid(6e164dcb85fc8ad4b9ab2f1e883862d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79dd9d9160b1f0afd1f0f4458623cf0c') in 0.0161017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Metal Barrel PBR/Scene/overview_room/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(b22336cc25761a940be7e9961d6fe7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Barrel PBR/Scene/overview_room/Lightmap-0_comp_shadowmask.png using Guid(b22336cc25761a940be7e9961d6fe7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9835455a25ffc0d8d8451180d4b0ca44') in 0.0157778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Metal Barrel PBR/Scene/overview_room/Lightmap-0_comp_dir.png
+  artifactKey: Guid(a7ea7a89d6a2bc2469487054f53df9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Barrel PBR/Scene/overview_room/Lightmap-0_comp_dir.png using Guid(a7ea7a89d6a2bc2469487054f53df9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bb148f435837865041096cbac424e33') in 0.0146053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/FMOD/images/LevelMeterOff.png
+  artifactKey: Guid(48dc5470d93f669419f294fcd33f7b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FMOD/images/LevelMeterOff.png using Guid(48dc5470d93f669419f294fcd33f7b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c96b3a5d492d4b7b92c64f00b5dcb3dd') in 0.0141489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Metal Barrel PBR/Scene/overview_room/ReflectionProbe-2.exr
+  artifactKey: Guid(2fe9a1080e761f547a7441acae925509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Barrel PBR/Scene/overview_room/ReflectionProbe-2.exr using Guid(2fe9a1080e761f547a7441acae925509) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f417d91bc03503016864375cc084c2e1') in 0.0161857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.367744 seconds.
+  path: Assets/Metal Barrel PBR/Textures/T_Barrel_AmbientOcclusion.tga
+  artifactKey: Guid(c2f90f807721a4b4281cabe8570746b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Barrel PBR/Textures/T_Barrel_AmbientOcclusion.tga using Guid(c2f90f807721a4b4281cabe8570746b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9562b7d34df814df8979b5e49d4d6ba') in 0.0453357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Metal Barrel PBR/Textures/T_Barrel_MetallicSmoothness.tga
+  artifactKey: Guid(f23b29367caf93f48b258e10f2c96caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Barrel PBR/Textures/T_Barrel_MetallicSmoothness.tga using Guid(f23b29367caf93f48b258e10f2c96caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ba462ff3aac4ea86a8be1f153f0e425') in 0.0285715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

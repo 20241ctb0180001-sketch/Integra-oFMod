@@ -13,6 +13,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] InputActionAsset inputActions;
     private InputAction MoveAction;
 
+    private Vector3 WhereWas;
+    public float VehVelocity = 0.0f;
+
     void Awake()
     {
         MoveAction = inputActions.FindAction("Move");
@@ -21,9 +24,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Vector2 MoveInput = MoveAction.ReadValue<Vector2>();
-
         horizontalInput = MoveInput.x;
         verticalInput = MoveInput.y;
+        //calcula
+        VehVelocity = ((transform.position - WhereWas).magnitude)/Time.deltaTime;
+        //atualiza pos pro prox calc de velocidade
+        WhereWas = transform.position;
 
         if (verticalInput > 0)
         {
